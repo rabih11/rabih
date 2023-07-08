@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+.hero{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #e3ebfa; 
+}
+#s{
+    height: 80px;
+    width: 80px;
+}
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: sp;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    padding: 10px 25px;
+}
+
+nav ul li a:hover{
+    color: rgb(134, 160, 4);
+}
+nav{
+    background:rgb(255, 255, 255);
+
+}
+body{
+    background: #e3ebfa;
+}
